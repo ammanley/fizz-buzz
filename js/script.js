@@ -17,6 +17,8 @@ function print(msg) {
   out.innerHTML += (msg) + "<br>";
 }
 
+ /*--Equivalent to:  out.innerHTML = out.innerHTML + (msg) + "<br>";--*/
+
 fizzbuzz();
 
 console.log("This JS file is loading")

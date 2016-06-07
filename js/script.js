@@ -15,6 +15,8 @@ var out = document.getElementById("output");
 
 function print(msg) {
   out.innerHTML += (msg) + "<br>";
+
+   /*--Equivalent to:  out.innerHTML = out.innerHTML + (msg) + "<br>";--*/
 }
 
 fizzbuzz();
